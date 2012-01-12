@@ -1,0 +1,139 @@
+<!doctype html>  
+
+<!--	MIU - Project			-->
+<!--	Jairo Daniel Bernal 	-->
+<!--	MIU 1201				-->
+<!--	01/02/2012				-->
+
+<html lang="en">
+<head>		
+	<meta charset="utf-8" />
+	
+	<title>Design Track</title>
+	
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<meta http-equiv="cleartype" content="on">
+			
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+	<!--<link rel="stylesheet" href="css/style.css" type="" />-->
+	
+	<script src="js/libs/modernizr.custom.min.js"></script>
+
+</head>
+<body>
+
+	<div data-role="page" id="home">	<!--Home page stars here-->
+		<div data-role="header" data-position="fixed">
+			<label for="search-basic"></label>
+			<input type="search" name="search" id="searc-basic" value="Search a Project" />
+		</div>
+		
+		<div data-role="content">
+			<h1>Design Track</h1>
+			<p>Manage your architectural projects by tracking your design tasks with this simple app.</p>
+			
+			<div id="addProject">
+				<h4>Create a Project Track</h4>
+				<a href="additem.html" data-role="button" input type="submit">Add a Project</a>
+			</div>
+			
+			<div id="browsePrj">
+				<h4>Browse a Project Track</h4>
+				<ul data-role="listview" data-inset="true">
+					<li>
+						<a href="#site">
+						<img src="image/Site Development.png"/>
+						<h3>Site Development</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#building">
+						<img src="image/Building Envelope.png"/>
+						<h3>Building Envelope</h3>
+						</a>
+					</li>
+					<li>
+						<a href="#interior">
+						<img src="image/Interior Design.png"/>
+						<h3>Interior Design</h3>
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div id="browseTsk">
+				<h4>Browse a Project Task</h4>
+				<ul data-role="listview" data-inset="true">
+					<li>
+						<img src=""/>
+						<h3>Drawings</h3>
+					</li>
+					<li>
+						<img src=""/>
+						<h3>3D Work</h3>
+					</li>
+					<li>
+						<img src=""/>
+						<h3>Renderings</h3>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</div>		<!--Home page ends here-->
+	
+	
+	<div data-role="page" id="site">	<!--Site Development page stars here-->
+		<div data-role="header" data-position="fixed">
+			<label for="search-basic"></label>
+			<input type="search" name="search" id="searc-basic" value="Search a Project" />
+		</div>
+		
+		<div data-role="content">
+			<h1>Design Track</h1>
+			
+			<div id="trackTitle">
+				<h4>Site Development Projects</h4>
+			</div>
+	</div>		<!--Site Development page ends here-->
+	
+	
+	<div data-role="page" id="building">	<!--Building Envelope page stars here-->
+		<div data-role="header" data-position="fixed">
+			<label for="search-basic"></label>
+			<input type="search" name="search" id="searc-basic" value="Search a Project" />
+		</div>
+		
+		<div data-role="content">
+			<h1>Design Track</h1>
+			
+			<div id="trackTitle">
+				<h4>Building Envelope Projects</h4>
+			</div>
+	</div>		<!--Building Envelope page ends here-->
+	
+	
+	<div data-role="page" id="interior">	<!--Interior Design page stars here-->
+		<div data-role="header" data-position="fixed">
+			<label for="search-basic"></label>
+			<input type="search" name="search" id="searc-basic" value="Search a Project" />
+		</div>
+		
+		<div data-role="content">
+			<h1>Design Track</h1>
+			
+			<div id="trackTitle">
+				<h4>Interior Design Projects</h4>
+			</div>
+	</div>		<!--Interior Design page ends here-->
+	
+	
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+</body>
+</html>
