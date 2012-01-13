@@ -70,7 +70,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="#trDWork" data-role="button" data-icon="gear">
+						<a href="#trdWork" data-role="button" data-icon="gear">
 						<h4>3D Work</h4>
 						</a>
 					</li>
@@ -99,9 +99,29 @@
 			<div id="trackTitle">
 				<h4>Site Development Projects</h4>
 			</div>
+			
+			<div data-role="nested" id="browsePrj">
+				<h3>Project</h3>
+				<ul data-role="listview">
+					<li>Project Type:  Site Development</li>
+					<li>Project Name: New Envelope Project</li>
+					<li>Project Number: 1234502</li>
+					<li>Designer Name: Me</li>
+					<li>Completion Date: 2011-01-01</li>
+					<li>Drawings: Elevations</li>
+					<li>Drawings Comments: none</li>
+					<li>3D Work: All</li>
+					<li>3D Work Comments: none</li>
+					<li>Renderings: 2</li>
+				</ul>
+			</div>
+
 	</div>		<!--Site Development page ends here-->
 	
+	<!--for some reason the other pages don't seem to work nor the buttons seem to link to the pages
+	couldn't figured out why.-->
 	
+		
 	<div data-role="page" id="building">	<!--Building Envelope page stars here-->
 		<div data-role="header" data-position="fixed">
 			<label for="search-basic"></label>
@@ -130,6 +150,52 @@
 				<h4>Interior Design Projects</h4>
 			</div>
 	</div>		<!--Interior Design page ends here-->
+	
+	
+	<div data-role="page" id="drawings">	<!--drawings page stars here-->
+		<div data-role="header" data-position="fixed">
+			<label for="search-basic"></label>
+			<input type="search" name="search" id="searc-basic" value="Search a Project" />
+		</div>
+		
+		<div data-role="content">
+			<h1>Design Track</h1>
+			
+			<div id="trackTitle">
+				<h4>Drawings</h4>
+			</div>
+	</div>		<!--drawings page ends here-->
+	
+	
+	<div data-role="page" id="trdWork">	<!--3d work page stars here-->
+		<div data-role="header" data-position="fixed">
+			<label for="search-basic"></label>
+			<input type="search" name="search" id="searc-basic" value="Search a Project" />
+		</div>
+		
+		<div data-role="content">
+			<h1>Design Track</h1>
+			
+			<div id="trackTitle">
+				<h4>3D Work</h4>
+			</div>
+	</div>		<!--drawings page ends here-->
+	
+	
+	<div data-role="page" id="renderings">	<!--renderings page stars here-->
+		<div data-role="header" data-position="fixed">
+			<label for="search-basic"></label>
+			<input type="search" name="search" id="searc-basic" value="Search a Project" />
+		</div>
+		
+		<div data-role="content">
+			<h1>Design Track</h1>
+			
+			<div id="trackTitle">
+				<h4>Renderings</h4>
+			</div>
+	</div>		<!---renderings page ends here-->
+	
 	
 	
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
