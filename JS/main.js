@@ -1,7 +1,7 @@
 //MIU - Project
 //Jairo Daniel Bernal
 //MIU 1201
-//01/06/2012		
+//01/12/2012		
 
 // DOM Content Load.
 window.addEventListener("DOMContentLoaded", function(){
@@ -156,7 +156,7 @@ window.addEventListener("DOMContentLoaded", function(){
 	
 		
 	// JSON Object - Auto populate local storage
-	
+	/*
 	function autoFillData() {
 		var json = {
 			"pType1": {
@@ -201,7 +201,7 @@ window.addEventListener("DOMContentLoaded", function(){
 			localStorage.setItem(id, JSON.stringify(json[n]));
 		};
 	};
-	
+	*/
 	
 	// Make Item Links
 	
